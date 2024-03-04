@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "敬休的博客",
+	"short_name": "jingxiu blog",
+	"description": "周敬休的博客",
 	"icons": [
 		{
 			"src": "/192x192.png",

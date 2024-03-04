@@ -3,18 +3,18 @@ import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Chris Williams",
+	author: " zhoujingxiu",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "Astro Theme Cactus",
+	title: "敬休记",
 	// Meta property used as the default description meta property
-	description: "An opinionated starter theme for Astro",
+	description: "周敬休的博客",
 	// HTML lang property, found in src/layouts/Base.astro L:18
-	lang: "en-GB",
+	lang: "zh-CN",
 	// Meta property, found in src/components/BaseHead.astro L:42
-	ogLocale: "en_GB",
+	ogLocale: "zh-CN",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
-		locale: "en-GB",
+		locale: "zh-CN",
 		options: {
 			day: "numeric",
 			month: "short",
@@ -22,22 +22,22 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	webmentions: {
-		link: "https://webmention.io/astro-cactus.chriswilliams.dev/webmention",
+		link: "https://www.jingxiu.fun",
 	},
 };
 
 // Used to generate links in both the Header & Footer.
 export const menuLinks: Array<{ title: string; path: string }> = [
 	{
-		title: "Home",
+		title: "主页",
 		path: "/",
 	},
 	{
-		title: "About",
+		title: "关于我",
 		path: "/about/",
 	},
 	{
-		title: "Blog",
+		title: "博客",
 		path: "/posts/",
 	},
 ];

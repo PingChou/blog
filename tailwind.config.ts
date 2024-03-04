@@ -64,9 +64,9 @@ export default {
 							border: "1px dotted #666",
 							borderRadius: "2px",
 						},
-						blockquote: {
-							borderLeftWidth: "0",
-						},
+						// blockquote: {
+						// 	borderLeftWidth: "0",
+						// },
 						hr: {
 							borderTopStyle: "dashed",
 						},
